@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from apps.teams.models import Role, Technology
+
+admin.site.register(Role)
+admin.site.register(Technology)

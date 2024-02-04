@@ -1,0 +1,43 @@
+{
+  "roles": [
+    {
+      "fields": {
+        "name": "Back-end"
+      }
+    },
+    {
+      "fields": {
+        "name": "Front-end"
+      }
+    },
+    {
+      "fields": {
+        "name": "Full-Stack"
+      }
+    },{
+      "fields": {
+        "name": "UX/UI"
+      }
+    },{
+      "fields": {
+        "name": "Leads"
+      }
+    },{
+      "fields": {
+        "name": "QA Engineer"
+      }
+    },{
+      "fields": {
+        "name": "DevOps Engineer"
+      }
+    },{
+      "fields": {
+        "name": "Project Manager"
+      }
+    },{
+      "fields": {
+        "name": "System Administrator"
+      }
+    }
+  ]
+}
