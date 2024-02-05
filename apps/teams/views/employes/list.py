@@ -5,6 +5,6 @@ from apps.teams.serializers import ListEmployeeSerializer
 
 
 class ListEmployeeAPIView(generics.ListAPIView):
-    permissions = [permissions.IsAdminUser]
+    permissions = [permissions.AllowAny]
     queryset = Employee.objects.all()
     serializer_class = ListEmployeeSerializer
