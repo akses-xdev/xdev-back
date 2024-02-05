@@ -1,0 +1,79 @@
+{
+  "technologies": [
+    {
+      "fields": {
+        "name": "Python"
+      }
+    },
+    {
+      "fields": {
+        "name": "Javascript"
+      }
+    },
+    {
+      "fields": {
+        "name": "Golang"
+      }
+    },
+    {
+      "fields": {
+        "name": "Java"
+      }
+    },
+    {
+      "fields": {
+        "name": "React"
+      }
+    },
+    {
+      "fields": {
+        "name": "Vue"
+      }
+    },
+    {
+      "fields": {
+        "name": "Angular"
+      }
+    },
+    {
+      "fields": {
+        "name": "Node.js"
+      }
+    },
+    {
+      "fields": {
+        "name": "FastAPI"
+      }
+    },
+    {
+      "fields": {
+        "name": "Flask"
+      }
+    },
+    {
+      "fields": {
+        "name": "RestAPI"
+      }
+    },
+    {
+      "fields": {
+        "name": "Gin"
+      }
+    },
+    {
+      "fields": {
+        "name": "Docker"
+      }
+    },
+    {
+      "fields": {
+        "name": "Git"
+      }
+    },
+    {
+      "fields": {
+        "name": "SQL"
+      }
+    }
+  ]
+}

@@ -31,6 +31,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
 
     'apps.users.apps.UsersConfig',
+    'apps.teams.apps.TeamsConfig',
 ]
 
 MIDDLEWARE = [
