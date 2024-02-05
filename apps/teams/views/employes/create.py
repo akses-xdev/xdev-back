@@ -3,7 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status
 
 from apps.teams.models import Employee
-from apps.teams.serializers.employee_serializer import EmployeeSerializer
+from apps.teams.serializers import EmployeeSerializer
 
 
 class CreateEmployeeView(generics.CreateAPIView):
