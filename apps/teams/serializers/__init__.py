@@ -1,2 +1,3 @@
 from .employee_serializer import EmployeeSerializer
 from .role_serializer import RoleSerializer
+from .technology_serializer import TechnologySerializer

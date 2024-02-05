@@ -5,3 +5,7 @@ from .employes import (
 from .roles import (
     ListRolesAPIView
 )
+
+from .technologies import (
+    TechnologyListAPIView
+)
