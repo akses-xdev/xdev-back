@@ -1,7 +1,8 @@
 from .employes import (
     CreateEmployeeView,
     DeleteEmployeeAPIView,
-    ListEmployeeAPIView
+    ListEmployeeAPIView,
+    UpdateEmployeeAPIView
 )
 
 from .roles import (

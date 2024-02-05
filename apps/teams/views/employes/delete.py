@@ -4,6 +4,6 @@ from apps.teams.models import Employee
 
 
 class DeleteEmployeeAPIView(generics.DestroyAPIView):
-    permissions = [permissions.AllowAny]
+    permissions = [permissions.IsAdminUser]
     queryset = Employee.objects.all()
     lookup_field = "id"
