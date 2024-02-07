@@ -8,6 +8,7 @@ urlpatterns = [
     path("api/users/", include("apps.users.urls")),
     path("api/", include("apps.teams.urls")),
     path("api/", include("apps.projects.urls")),
+    path("api/", include("apps.applications.urls")),
 ]
 
 urlpatterns += i18n_patterns(

@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'apps.teams.apps.TeamsConfig',
     'apps.blogs.apps.BlogsConfig',
     'apps.projects.apps.ProjectsConfig',
+    'apps.applications.apps.ApplicationsConfig',
 ]
 
 MIDDLEWARE = [
