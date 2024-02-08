@@ -6,5 +6,11 @@ from apps.teams.serializers import ListEmployeeSerializer
 
 class ListEmployeeAPIView(generics.ListAPIView):
     permissions = [permissions.AllowAny]
-    queryset = Employee.objects.all()
     serializer_class = ListEmployeeSerializer
+
+    def get_queryset(self):
+        queryset = Employee.objects.all()
+        role = self.request.query_params.get('role')
+        if role:
+            queryset = queryset.filter(role__id=role)
+        return queryset
