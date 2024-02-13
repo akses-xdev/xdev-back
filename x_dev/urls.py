@@ -13,11 +13,8 @@ urlpatterns = [
     path("api/", include("apps.teams.urls")),
     path("api/", include("apps.projects.urls")),
     path("api/", include("apps.applications.urls")),
-]
-
-urlpatterns += i18n_patterns(
     path("api/", include("apps.blogs.urls")),
-)
+]
 
 urlpatterns += doc_url
 
