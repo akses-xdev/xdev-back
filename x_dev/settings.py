@@ -22,7 +22,8 @@ SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 ALLOWED_HOSTS = [
     "13.49.145.242",
-    "internal-xdev-back-1390441213.eu-north-1.elb.amazonaws.com"
+    "xdev-back-717892201.eu-north-1.elb.amazonaws.com",
+    "sel-back.com"
 ]
 
 AUTH_USER_MODEL = 'users.User'
