@@ -6,5 +6,14 @@ from apps.projects.serializers import ListProjectsSerializer
 
 class ListProjectAPIView(generics.ListAPIView):
     permission_classes = [permissions.AllowAny]
-    queryset = Project.objects.all()
     serializer_class = ListProjectsSerializer
+
+    def get_queryset(self):
+        categories_query = self.request.query_params.getlist('category', '')
+
+        if categories_query:
+            queryset = Project.objects.filter(category__name__in=categories_query)
+        else:
+            queryset = Project.objects.all()
+
+        return queryset

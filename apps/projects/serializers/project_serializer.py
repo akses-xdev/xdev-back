@@ -12,5 +12,5 @@ class ProjectSerializer(serializers.ModelSerializer):
 
 
 class ListProjectsSerializer(ProjectSerializer):
-    category = CategorySerializer
+    category = CategorySerializer()
 
