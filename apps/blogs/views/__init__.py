@@ -3,5 +3,6 @@ from .blogs import (
     ListBlogAPIView,
     DeleteBlogAPIView,
     UpdateBlogAPIView,
-    GetBlogAPIView
+    GetBlogAPIView,
+    GetBlogByTitleAPIView
 )
