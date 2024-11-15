@@ -21,7 +21,7 @@ DEBUG = os.getenv("DEBUG")
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
 ALLOWED_HOSTS = [
-    "13.49.145.242",
+    "13.48.57.240",
     "xdev-back-717892201.eu-north-1.elb.amazonaws.com",
     "api-xdev.com"
 ]
